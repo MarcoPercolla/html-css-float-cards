@@ -1,0 +1,64 @@
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 300;
+   
+}
+
+.float-left {
+	float: left;
+}
+
+.clearfix::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.col {
+	float: left;
+	width: calc(100% / 3);
+	padding: 2%;
+    padding-bottom: 3%;
+	text-align: left;
+
+
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+}
+
+h1 {
+    color: #E53170;
+    text-align: center;
+    margin: 1.5%
+}
+
+img {
+   width: calc(100% / 3);
+   margin-right: 20px;
+    
+}
+
+.card {
+    background:black;
+    color:white;
+    
+}
+
+.mail {
+    color:aqua;
+}
+
+.descrizione {
+    text-align: center;
+    margin: 3%;
+}
+
