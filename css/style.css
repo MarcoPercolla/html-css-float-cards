@@ -50,7 +50,7 @@ img {
 .card {
     background:black;
     color:white;
-    
+    box-shadow: rgb(189, 188, 188) 0px 8px 24px; ;
     
 }
 
